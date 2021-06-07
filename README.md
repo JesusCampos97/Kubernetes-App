@@ -15,10 +15,10 @@
   3.4. Entramos en los ficheros de vote-service.yaml y result-service.yaml
   <br>
   3.5. Cambiamos los tipos de NodePort a LoadBalancer para que nos de las ips externas
-  <br>
+  
   ![image](https://user-images.githubusercontent.com/29258769/121072091-0e7b8380-c7d1-11eb-97c5-e27bc28fc7bb.png)
   3.6. Esperamos a que nos de las ip externas con kubectl get services
-  <br>
+  
   ![image](https://user-images.githubusercontent.com/29258769/121072172-2521da80-c7d1-11eb-9ba3-a74eecd81ed2.png)
   ![image](https://user-images.githubusercontent.com/29258769/121072320-5d291d80-c7d1-11eb-998a-7e14d9bd8181.png)
 
