@@ -10,9 +10,9 @@
   <br>
   3.2. cd k8s-vote-app
   <br>
-  3.3. kubectl apply -f .
+  3.3. Entramos en los ficheros de vote-service.yaml y result-service.yaml
   <br>
-  3.4. Entramos en los ficheros de vote-service.yaml y result-service.yaml
+  3.4. kubectl apply -f .
   <br>
   3.5. Cambiamos los tipos de NodePort a LoadBalancer para que nos de las ips externas
   
